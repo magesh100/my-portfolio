@@ -71,7 +71,52 @@ img{
 .list-link:hover{
   color: #110c46;
 }
+.contact-link-container{
+  text-decoration: none;
+  list-style-type: none;
+}
+.contact-link{
+  text-decoration: none;
+}
+span{
+  color: purple;
+}
+h1{
+  margin-top:12px ;
+}
+p{
+  margin-top: 24px;
+}
+.contact-item{
+  margin-top: 24px;
+  gap:1rem;
+}
+.studies{
+ text-align: left;
+ margin-left: 240px;
+ font-size: 14px;
+ 
+  
+}
+hr{
+  margin-top: 10px;
 
+}
+.main{
+  width:60%;
+  height:10rem;
+}
+h2{
+  width:60%;
+  justify-content: space-around;
+  height:5rem;
+}
+.main-left-container{
+  display: flex;
+  height:(60vh-5rem);
+  justify-content: space-around;
+  
+}
 
 
 
@@ -90,14 +135,17 @@ img{
 
 }
  .logo{
-  font-size: 1.5rem;
+  font-size: 1rem;
  } 
  .list-link{
-  font-size: 1.25rem;
+  font-size: 1rem;
  }
  .hero-section{
   display: flex;
   height:(60vh-5rem);
   justify-content: space-around;
  }
+ 
+
+ 
 
