@@ -31,7 +31,7 @@ img{
   height: auto;
 }
 .header{
-  height: 100vh;
+  height: 60vh;
 }
 .nav{
   
@@ -94,5 +94,10 @@ img{
  } 
  .list-link{
   font-size: 1.25rem;
+ }
+ .hero-section{
+  display: flex;
+  height:(60vh-5rem);
+  justify-content: space-around;
  }
 
