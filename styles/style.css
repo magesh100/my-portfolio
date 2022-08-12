@@ -208,8 +208,15 @@ p{
  .contact-link-container{
   justify-content: center;
  }
+ .hero-img-container{
+  display:none ;
+ }
+ .header{
+  height:43vh;
+ }
  
 }
+
 
 
  
