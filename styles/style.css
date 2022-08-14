@@ -188,9 +188,12 @@ p{
  }
  .project-list-item{
   width:22rem;
-  height: 18rem;
+  height: 14rem;
   border-radius: 10px;
   border:2px solid var(--clr-dark-blue);
+ }
+ a{
+  text-decoration: none;
  }
  .project-list-container{
   display:flex;
@@ -200,13 +203,86 @@ p{
   gap:1.25rem;
   margin-top: 2rem;
  }
- project-btn-container{
+ .btn-code{
+  color: var(--clr-white);
+  background-color: var(--clr-dark-blue);
+  border:2px solid var(--clr-dark-blue);
+ }
+ .btn-code:hover{
+  color:#ec16ac;
+  background-color: #110c46;
+ }
+ .btn-code-outline:hover{
+  color:#ec16ac;
+  background-color: #110c46;
+ }
+ .btn-code-outline{
+  text-align: center;
+  padding: 0.5rem;
+ }
+
+ .project-btn-container{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 5rem;
+  text-align: center;
  }
+  .btn{
+    height: 2rem;
+    width:5rem;
+    border-radius: 10px;
+    background-color: #35a2ce;
+    color:aliceblue;
+    margin-top: 2rem;
 
+  }
+  .blog-list-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:1.25rem;
+    margin-top: 2rem;
+   }
+   .blog-img-container img{
+    width:9.5rem;
+    height:9.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+   }
+   .blog-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 7rem;
+   }
+   .blog-list-item{
+    width:30rem;
+    height:10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    border:2px solid var(--clr-dark-blue);
+
+   }
+   .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 5rem;
+    background-color: #ec16ac;
+   }
+   .footer p{
+    flex-direction: column;
+    font-size: 1.25rem;
+    font-weight: 900;
+    color:aliceblue;
+   }
+  
 
 
  
@@ -238,6 +314,29 @@ p{
  }
  .header{
   height:43vh;
+ }
+ .project-btn-container{
+  flex-direction: column;
+  justify-content: space-around;
+ }
+ .project-btn-container .btn{
+  margin: 0.25rem auto;
+ }
+ .blog-list-item img{
+  display: none;
+
+  
+ }
+ .blog-list-item{
+  text-align: center;
+ }
+ .blog-btn-container{
+  margin-top: 0.5rem;
+  margin:0.5rem auto;
+
+ }
+ .blog-details{
+  height:80%;
  }
  
 }
