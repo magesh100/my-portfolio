@@ -21,10 +21,11 @@ html{
   --clr-dark-blue:#110c46;
 }
 body{
+ 
   
 font-family: var(--f-mont);
 background-color: var(--clr-white);
-color:var(--clr-dark-blue)
+color:var(--clr-dark-blue);
 }
 img{
   width:100%;
