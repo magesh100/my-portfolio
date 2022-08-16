@@ -8,6 +8,7 @@
 }
 
 html{
+  
   font-size: 16px;
   text-decoration: none;
   list-style: none;
@@ -118,6 +119,7 @@ li{
   color: #ec16ac;
 }
 .hero-section{
+  background-color: rgb(121, 167, 53);
   
   width:100%;
   margin-top: 1rem;
@@ -162,14 +164,15 @@ p{
  }
  .hero-img-container{
   margin-top: 0.5rem;
-  width:20rem;
-  height:20rem;
+  width:10rem;
+  height:10rem;
 
  }
  .hero-img-container img{
   border-radius: 20%;
  }
  .skill-list-container{
+  min-height: fit-content;
 
   display: flex;
   align-items: center;
@@ -178,6 +181,9 @@ p{
   align-items: center;
   gap: 1.25rem;
   margin-top: 2rem;
+ }
+ main{
+  background-color:beige;
  }
  .skill-list-item{
   width:8rem;
@@ -229,13 +235,21 @@ p{
   text-align: center;
  }
   .btn{
-    height: 2rem;
-    width:5rem;
+    height: 3rem;
+    width:6.5rem;
     border-radius: 10px;
-    background-color: #35a2ce;
+    background-color: hsl(196, 65%, 5%);
     color:aliceblue;
     margin-top: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+    color: var(--clr-white);
+  background-color: var(--clr-dark-blue);
+  border:2px solid var(--clr-dark-blue);
 
+  }
+  .project-img-container-sec{
+    width:22rem;
   }
   .blog-list-container{
     display:flex;
@@ -283,6 +297,10 @@ p{
     font-weight: 900;
     color:aliceblue;
    }
+   .work{
+    height:128px;
+    width:348px;
+   }
   
 
 
@@ -311,7 +329,8 @@ p{
   justify-content: center;
  }
  .hero-img-container{
-  display:none ;
+  gap:1rem;
+  
  }
  .header{
   height:43vh;
@@ -340,8 +359,27 @@ p{
   height:80%;
  }
  .section-title{
-  margin-top:3rem;
+  margin-top:9rem;
   padding-top: 3rem;
+ }
+ .skill-list-container{
+  height:3vh;
+ }
+ .project-list-item{
+  height:16rem;
+ }
+ .project-list-container{
+  height:20rem;
+  gap:3rem;
+ }
+ .skill-list-container{
+  height:2rem;
+ }
+ .project-img-container-sec{
+  width:18rem;
+ }
+ .work{
+  width:18rem;
  }
  
 }
