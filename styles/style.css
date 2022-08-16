@@ -361,7 +361,8 @@ p{
   padding-top: 3rem;
  }
  .skill-list-container{
-  height:3vh;
+  margin-top: 4rem;
+  height:2vh;
  }
  .project-list-item{
   height:16rem;
