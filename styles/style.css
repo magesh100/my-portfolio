@@ -313,6 +313,9 @@ p{
 
 
 }
+.skills-section{
+  margin-top: 3rem;
+}
  .logo{
   font-size: 1rem;
  } 
@@ -361,8 +364,8 @@ p{
   padding-top: 3rem;
  }
  .skill-list-container{
-  margin-top: 4rem;
-  height:2vh;
+  margin-top: 2rem;
+  height:1vh;
  }
  .project-list-item{
   height:16rem;
