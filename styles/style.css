@@ -383,6 +383,9 @@ p{
  .work{
   width:18rem;
  }
+ .hero-img-container{
+  display: none;
+ }
  
 }
 
